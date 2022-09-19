@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-export default function DynamicRoute({slug}) {
+export default function DynamicRoute() {
    const router = useRouter()
    const { slug } = router.query
   if (slug === "blocked") {
